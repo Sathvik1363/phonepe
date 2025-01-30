@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhonePe: UPI Payments, Investment, Insurance, Recharges, DTH & More</title>
+    <link rel="shortcut icon"
+        href="https://www.phonepe.com/webstatic/8556/favicon-32x32.png?v=1e5c98f168b1aeec4e1d02c0739fa229"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <nav>
+        <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzIgNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6IzVmMjU5Zn08L3N0eWxlPjxjaXJjbGUgdHJhbnNmb3JtPSJyb3RhdGUoLTc2LjcxNCAxNy44NyAyNC4wMDEpIiBjbGFzcz0ic3QwIiBjeD0iMTcuOSIgY3k9IjI0IiByPSIxNy45Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTkwLjUgMzQuMnYtNi41YzAtMS42LS42LTIuNC0yLjEtMi40LS42IDAtMS4zLjEtMS43LjJWMzVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYyMy45YzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA1LjYgMS45IDUuNiA1LjR2Ny40YzAgLjMtLjMuNi0uNi42SDkyYy0uOSAwLTEuNS0uNy0xLjUtMS41em05LTMuOWwtLjEuOWMwIDEuMi44IDEuOSAyLjEgMS45IDEgMCAxLjktLjMgMi45LS44LjEgMCAuMi0uMS4zLS4xLjIgMCAuMy4xLjQuMi4xLjEuMy40LjMuNC4yLjMuNC43LjQgMSAwIC41LS4zIDEtLjcgMS4yLTEuMS42LTIuNC45LTMuOC45LTEuNiAwLTIuOS0uNC0zLjktMS4yLTEtLjktMS42LTIuMS0xLjYtMy42di0zLjljMC0zLjEgMi01IDUuNC01IDMuMyAwIDUuMiAxLjggNS4yIDV2Mi40YzAgLjMtLjMuNi0uNi42aC02LjN6bS0uMS0yLjJIMTAzLjJ2LTFjMC0xLjItLjctMi0xLjktMnMtMS45LjctMS45IDJ2MXptMjUuNSAyLjJsLS4xLjljMCAxLjIuOCAxLjkgMi4xIDEuOSAxIDAgMS45LS4zIDIuOS0uOC4xIDAgLjItLjEuMy0uMS4yIDAgLjMuMS40LjIuMS4xLjMuNC4zLjQuMi4zLjQuNy40IDEgMCAuNS0uMyAxLS43IDEuMi0xLjEuNi0yLjQuOS0zLjguOS0xLjYgMC0yLjktLjQtMy45LTEuMi0xLS45LTEuNi0yLjEtMS42LTMuNnYtMy45YzAtMy4xIDItNSA1LjQtNSAzLjMgMCA1LjIgMS44IDUuMiA1djIuNGMwIC4zLS4zLjYtLjYuNmgtNi4zem0tLjEtMi4ySDEyOC42di0xYzAtMS4yLS43LTItMS45LTJzLTEuOS43LTEuOSAydjF6TTY2IDM1LjdoMS40Yy4zIDAgLjYtLjMuNi0uNnYtNy40YzAtMy40LTEuOC01LjQtNC44LTUuNC0uOSAwLTEuOS4yLTIuNS40VjE5YzAtLjgtLjctMS41LTEuNS0xLjVoLTEuNGMtLjMgMC0uNi4zLS42LjZ2MTdjMCAuMy4zLjYuNi42aDIuM2MuMyAwIC42LS4zLjYtLjZ2LTkuNGMuNS0uMiAxLjItLjMgMS43LS4zIDEuNSAwIDIuMS43IDIuMSAyLjR2Ni41Yy4xLjcuNyAxLjQgMS41IDEuNHptMTUuMS04LjRWMzFjMCAzLjEtMi4xIDUtNS42IDUtMy40IDAtNS42LTEuOS01LjYtNXYtMy43YzAtMy4xIDIuMS01IDUuNi01IDMuNSAwIDUuNiAxLjkgNS42IDV6bS0zLjUgMGMwLTEuMi0uNy0yLTItMnMtMiAuNy0yIDJWMzFjMCAxLjIuNyAxLjkgMiAxLjlzMi0uNyAyLTEuOXYtMy43em0tMjIuMy0xLjdjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40ek01MS43IDIzYzAtMS42LTEuMS0yLjQtMi42LTIuNC0uOSAwLTEuNS4zLTEuNS4zdjYuNmMuNi4zLjkuNCAxLjYuNCAxLjUgMCAyLjYtLjkgMi42LTIuNFYyM3ptNjguMiAyLjZjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40em0tMy42LTIuNmMwLTEuNi0xLjEtMi40LTIuNi0yLjQtLjkgMC0xLjUuMy0xLjUuM3Y2LjZjLjYuMy45LjQgMS42LjQgMS41IDAgMi42LS45IDIuNi0yLjRWMjN6Ii8+PHBhdGggZD0iTTI2IDE5LjNjMC0uNy0uNi0xLjMtMS4zLTEuM2gtMi40bC01LjUtNi4zYy0uNS0uNi0xLjMtLjgtMi4xLS42bC0xLjkuNmMtLjMuMS0uNC41LS4yLjdsNiA1LjdIOS41Yy0uMyAwLS41LjItLjUuNXYxYzAgLjcuNiAxLjMgMS4zIDEuM2gxLjR2NC44YzAgMy42IDEuOSA1LjcgNS4xIDUuNyAxIDAgMS44LS4xIDIuOC0uNXYzLjJjMCAuOS43IDEuNiAxLjYgMS42aDEuNGMuMyAwIC42LS4zLjYtLjZWMjAuOGgyLjNjLjMgMCAuNS0uMi41LS41di0xem0tNi40IDguNmMtLjYuMy0xLjQuNC0yIC40LTEuNiAwLTIuNC0uOC0yLjQtMi42di00LjhoNC40djd6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"
+            alt="logo">
+        <ul class="nav-links">
+            <li><a href="#">our solutions</a></li>
+            <li><a href="#">press</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">trust & safety</a></li>
+    </nav>
+    <div class="banner">
+
+        <div class="banner-content">
+            <div class="banner-heading">
+                <p>1.95%</p>
+                <h1>FREE</h1>
+            </div>
+            <p class="banner-title">Accept payments for your <br class="banner-hide-on-mobile"> online business at zero
+                cost</p>
+            <p class="banner-para">Sign up for PhonePe Payment Gateway</p>
+            <div class="banner-btn">
+                <a href="https://business.phonepe.com/register?utm_source=homepage_banner_pg" target="_self">Get
+                    Started</a>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!------------------ cards ------------------------->
+    <div class="types">
+        <div class="types-card c1">
+            <div class="type-card-content">
+                <h2>Insurance</h2>
+                <div><span><i class="bi bi-arrow-right"></i></span></div>
+            </div>
+        </div>
+        <div class="types-card c2">
+            <div class="type-card-content">
+                <h2>Investments</h2>
+                <div><span><i class="bi bi-arrow-right"></i></span></div>
+            </div>
+        </div>
+        <div class="types-card c3">
+            <div class="type-card-content">
+                <h2>Insurance</h2>
+                <div><span><i class="bi bi-arrow-right"></i></span></div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------App view---------------------->
+    <div class="app-view">
+        <div class="app-view-content">
+            <div class="app-content">
+                <h1>Simple, Fast & Secure</h1>
+                <div class="para1">
+                    <h2>One app for all things money.</h2>
+                    <p>Pay bills, recharge, send money, buy gold, invest and shop at your favourite stores.</p>
+
+                </div>
+                <div class="para1">
+                    <h2>Pay whenever you like, wherever you like.</h2>
+                    <p>Choose from options like UPI, the PhonePe wallet or your Debit and Credit Card.</p>
+
+                </div>
+                <div class="para1">
+                    <h2>Find all your favourite apps on PhonePe Switch.</h2>
+                    <p>Book flights, order food or buy groceries. Use all your favourite apps without downloading them.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="app-view-video">
+            <video autoplay="" loop="" muted=""
+                poster="/static/fast-secure-video-poster-v3-6f33427d52f42e474727f7442b029c59.png" playsinline="">
+                <source src="https://www.phonepe.com/webstatic/8556/videos/page/home-fast-secure-v3.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="img-logo">
+        <img src="https://www.phonepe.com/webstatic/8556/static/4a61ea7c648229cda71b85e3a5a06fca/4087d/nt_insurance.png"
+            alt="imgtext">
+
+        <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzIgNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6IzVmMjU5Zn08L3N0eWxlPjxjaXJjbGUgdHJhbnNmb3JtPSJyb3RhdGUoLTc2LjcxNCAxNy44NyAyNC4wMDEpIiBjbGFzcz0ic3QwIiBjeD0iMTcuOSIgY3k9IjI0IiByPSIxNy45Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTkwLjUgMzQuMnYtNi41YzAtMS42LS42LTIuNC0yLjEtMi40LS42IDAtMS4zLjEtMS43LjJWMzVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYyMy45YzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA1LjYgMS45IDUuNiA1LjR2Ny40YzAgLjMtLjMuNi0uNi42SDkyYy0uOSAwLTEuNS0uNy0xLjUtMS41em05LTMuOWwtLjEuOWMwIDEuMi44IDEuOSAyLjEgMS45IDEgMCAxLjktLjMgMi45LS44LjEgMCAuMi0uMS4zLS4xLjIgMCAuMy4xLjQuMi4xLjEuMy40LjMuNC4yLjMuNC43LjQgMSAwIC41LS4zIDEtLjcgMS4yLTEuMS42LTIuNC45LTMuOC45LTEuNiAwLTIuOS0uNC0zLjktMS4yLTEtLjktMS42LTIuMS0xLjYtMy42di0zLjljMC0zLjEgMi01IDUuNC01IDMuMyAwIDUuMiAxLjggNS4yIDV2Mi40YzAgLjMtLjMuNi0uNi42aC02LjN6bS0uMS0yLjJIMTAzLjJ2LTFjMC0xLjItLjctMi0xLjktMnMtMS45LjctMS45IDJ2MXptMjUuNSAyLjJsLS4xLjljMCAxLjIuOCAxLjkgMi4xIDEuOSAxIDAgMS45LS4zIDIuOS0uOC4xIDAgLjItLjEuMy0uMS4yIDAgLjMuMS40LjIuMS4xLjMuNC4zLjQuMi4zLjQuNy40IDEgMCAuNS0uMyAxLS43IDEuMi0xLjEuNi0yLjQuOS0zLjguOS0xLjYgMC0yLjktLjQtMy45LTEuMi0xLS45LTEuNi0yLjEtMS42LTMuNnYtMy45YzAtMy4xIDItNSA1LjQtNSAzLjMgMCA1LjIgMS44IDUuMiA1djIuNGMwIC4zLS4zLjYtLjYuNmgtNi4zem0tLjEtMi4ySDEyOC42di0xYzAtMS4yLS43LTItMS45LTJzLTEuOS43LTEuOSAydjF6TTY2IDM1LjdoMS40Yy4zIDAgLjYtLjMuNi0uNnYtNy40YzAtMy40LTEuOC01LjQtNC44LTUuNC0uOSAwLTEuOS4yLTIuNS40VjE5YzAtLjgtLjctMS41LTEuNS0xLjVoLTEuNGMtLjMgMC0uNi4zLS42LjZ2MTdjMCAuMy4zLjYuNi42aDIuM2MuMyAwIC42LS4zLjYtLjZ2LTkuNGMuNS0uMiAxLjItLjMgMS43LS4zIDEuNSAwIDIuMS43IDIuMSAyLjR2Ni41Yy4xLjcuNyAxLjQgMS41IDEuNHptMTUuMS04LjRWMzFjMCAzLjEtMi4xIDUtNS42IDUtMy40IDAtNS42LTEuOS01LjYtNXYtMy43YzAtMy4xIDIuMS01IDUuNi01IDMuNSAwIDUuNiAxLjkgNS42IDV6bS0zLjUgMGMwLTEuMi0uNy0yLTItMnMtMiAuNy0yIDJWMzFjMCAxLjIuNyAxLjkgMiAxLjlzMi0uNyAyLTEuOXYtMy43em0tMjIuMy0xLjdjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40ek01MS43IDIzYzAtMS42LTEuMS0yLjQtMi42LTIuNC0uOSAwLTEuNS4zLTEuNS4zdjYuNmMuNi4zLjkuNCAxLjYuNCAxLjUgMCAyLjYtLjkgMi42LTIuNFYyM3ptNjguMiAyLjZjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40em0tMy42LTIuNmMwLTEuNi0xLjEtMi40LTIuNi0yLjQtLjkgMC0xLjUuMy0xLjUuM3Y2LjZjLjYuMy45LjQgMS42LjQgMS41IDAgMi42LS45IDIuNi0yLjRWMjN6Ii8+PHBhdGggZD0iTTI2IDE5LjNjMC0uNy0uNi0xLjMtMS4zLTEuM2gtMi40bC01LjUtNi4zYy0uNS0uNi0xLjMtLjgtMi4xLS42bC0xLjkuNmMtLjMuMS0uNC41LS4yLjdsNiA1LjdIOS41Yy0uMyAwLS41LjItLjUuNXYxYzAgLjcuNiAxLjMgMS4zIDEuM2gxLjR2NC44YzAgMy42IDEuOSA1LjcgNS4xIDUuNyAxIDAgMS44LS4xIDIuOC0uNXYzLjJjMCAuOS43IDEuNiAxLjYgMS42aDEuNGMuMyAwIC42LS4zLjYtLjZWMjAuOGgyLjNjLjMgMCAuNS0uMi41LS41di0xem0tNi40IDguNmMtLjYuMy0xLjQuNC0yIC40LTEuNiAwLTIuNC0uOC0yLjQtMi42di00LjhoNC40djd6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"
+            alt="phonepe-logo">
+    </div>
+    <!-- cards- carousel -->
+    <div class="main-carousel">
+        <div class="carousel-part">
+            <div class="carousel-part__item">
+                <img src="https://www.phonepe.com/webstatic/8559/static/8be6bf26fd71ee56e6219ef7259f8059/d985f/nt_thumb_1.png"
+                    alt="card1 ">
+            </div>
+            <div class="carousel-part__item">
+                <img src="https://www.phonepe.com/webstatic/8559/static/383d2df2b3a8137c8f780d0dd3f0f285/d985f/nt_thumb_2.png"
+                    alt="card2">
+            </div>
+            <div class="carousel-part__item">
+                <img src="https://www.phonepe.com/webstatic/8559/static/c78a0fbf793d7eb11f5c7ed4447910c4/62b1f/nt_thumb_3.png"
+                    alt="card3">
+            </div>
+            <div class="carousel-part__item">
+                <img src="https://www.phonepe.com/webstatic/8559/static/2b5708b4265bef9052322b5948326b4d/d985f/nt_thumb_4.png"
+                    alt="card4">
+            </div>
+            <div class="carousel-part__item">
+                <img src="https://www.phonepe.com/webstatic/8559/static/c1c3978f68550769490c2e641e782def/d985f/nt_thumb_5.png"
+                    alt="card5">
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="btn-para">
+        <button>watch all videos</button>
+        <div class="btn-para-content">
+            <p>Payments on PhonePe are safe, reliable and fast. One in three Indians are now using the PhonePe app to
+                send money, recharge, pay bills and do so much more, in just a few simple clicks. PhonePe has also
+                introduced several Insurance products and Investment options that offer every Indian an equal
+                opportunity to unlock the flow of money, and get access to financial services.</p>
+        </div>
+        <span>#KarteJaBadhteJa</span>
+
+    </div>
+
+    <!-- trust-wiget -->
+    <div class="trust">
+        <div class="trust-left">
+            <img src="./trust.png" alt="trust">
+        </div>
+        <div class="trust-container">
+            <h1>
+                Your money stays safe.
+            </h1>
+            <p>PhonePe protects your money with the best-in-class <br> security systems that help minimize frauds.</p>
+            <div class="trust-logos">
+                <img src="logo1.png" alt="PhonePe PCI Logo">
+                <img src="logo2.png" alt="PhonePe ISO Logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- PARTNER -->
+    <div class="partner">
+        <div class="partner-content">
+            <h2>
+                At 4+ Crore <br>
+                stores, apps, websites & more
+            </h2>
+        </div>
+        <div class="partner-button">
+            <a class="btn-container" href="/business-solutions/"><span class="btn-container__btn"><span>Partner with
+                        us</span><span class="arrow"><img
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48cGF0aCBkPSJNMS4wNTQgOC41SDMxIi8+PHBhdGggc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTI0IDFsOCA4LTggNyIvPjwvZz48L3N2Zz4="></span></span></a>
+        </div>
+
+        <div class="all-sites">
+            <img src="
+            https://www.phonepe.com/webstatic/8568/static/6f6a045306a14491bf6aa948f2dab1eb/5707d/partner-section-desk.png"
+                alt="">
+        </div>
+
+    </div>
+    <!-- Business -->
+    <div class="business">
+        <div class="business-img">
+            <img src="
+            https://www.phonepe.com/webstatic/8568/static/7f5a690b04f23ab91ccc4061249a2745/0178f/basket-desktop.png"
+                alt="">
+
+            <img src="https://www.phonepe.com/webstatic/8568/static/cfb480f27dda7ed0b0d48ec775dd2b1f/fca2e/sales-anim.png"
+                alt="sales">
+        </div>
+        <div class="business-content">
+            <h2>For Business</h2>
+            <p>Find the digital payment solution that fits your business needs</p>
+            <h3>I want to:</h3>
+
+            <div class="business-content-overview">
+                <div class="content-overview">
+                    <h4>Be on PhonePe Switch</h4>
+                    <p>Get new users for your app</p>
+                </div>
+            </div>
+            <div class="business-content-overview">
+                <div class="content-overview">
+                    <h4>Accept payments at stores</h4>
+                    <p>Help your business go cashless</p>
+                </div>
+            </div>
+            <div class="business-content-overview">
+                <div class="content-overview">
+                    <h4>Integrate PhonePe Payment Gateway </h4>
+                    <p>Process online payments seamlessly</p>
+                </div>
+            </div>
+            <div class="business-content-overview">
+                <div class="content-overview">
+                    <h4>Advertise on PhonePe </h4>
+                    <p>Advertise & let customers know about you</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-image -->
+    <div class="footer-image">
+        <div class="footer-container">
+            <div class="accepted">
+                <p>Trusted by over</p>
+                <h1>58.5+ Crore</h1>
+                <p>Registered Users</p>
+            </div>
+            <div class="accepted">
+                <p>Accepted all over</p>
+                <h1>India</h1>
+            </div>
+            <div class="accepted">
+                <p>Accepted at </p>
+                <h1>4+ Crore</h1>
+                <p>Stores</p>
+            </div>
+        </div>
+        <div class="footer-para">
+            <h3>Get the latest data trends and insights on PhonePe Pulse!</h3>
+            <button>Explore Now</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-desktop">
+            <div class="footer-container">
+                <div class="footer-container__item">
+                    <div class="pp-logo"><img
+                            src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxMzIgNDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZT4uc3Qwe2ZpbGw6IzVmMjU5Zn08L3N0eWxlPjxjaXJjbGUgdHJhbnNmb3JtPSJyb3RhdGUoLTc2LjcxNCAxNy44NyAyNC4wMDEpIiBjbGFzcz0ic3QwIiBjeD0iMTcuOSIgY3k9IjI0IiByPSIxNy45Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTkwLjUgMzQuMnYtNi41YzAtMS42LS42LTIuNC0yLjEtMi40LS42IDAtMS4zLjEtMS43LjJWMzVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYyMy45YzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA1LjYgMS45IDUuNiA1LjR2Ny40YzAgLjMtLjMuNi0uNi42SDkyYy0uOSAwLTEuNS0uNy0xLjUtMS41em05LTMuOWwtLjEuOWMwIDEuMi44IDEuOSAyLjEgMS45IDEgMCAxLjktLjMgMi45LS44LjEgMCAuMi0uMS4zLS4xLjIgMCAuMy4xLjQuMi4xLjEuMy40LjMuNC4yLjMuNC43LjQgMSAwIC41LS4zIDEtLjcgMS4yLTEuMS42LTIuNC45LTMuOC45LTEuNiAwLTIuOS0uNC0zLjktMS4yLTEtLjktMS42LTIuMS0xLjYtMy42di0zLjljMC0zLjEgMi01IDUuNC01IDMuMyAwIDUuMiAxLjggNS4yIDV2Mi40YzAgLjMtLjMuNi0uNi42aC02LjN6bS0uMS0yLjJIMTAzLjJ2LTFjMC0xLjItLjctMi0xLjktMnMtMS45LjctMS45IDJ2MXptMjUuNSAyLjJsLS4xLjljMCAxLjIuOCAxLjkgMi4xIDEuOSAxIDAgMS45LS4zIDIuOS0uOC4xIDAgLjItLjEuMy0uMS4yIDAgLjMuMS40LjIuMS4xLjMuNC4zLjQuMi4zLjQuNy40IDEgMCAuNS0uMyAxLS43IDEuMi0xLjEuNi0yLjQuOS0zLjguOS0xLjYgMC0yLjktLjQtMy45LTEuMi0xLS45LTEuNi0yLjEtMS42LTMuNnYtMy45YzAtMy4xIDItNSA1LjQtNSAzLjMgMCA1LjIgMS44IDUuMiA1djIuNGMwIC4zLS4zLjYtLjYuNmgtNi4zem0tLjEtMi4ySDEyOC42di0xYzAtMS4yLS43LTItMS45LTJzLTEuOS43LTEuOSAydjF6TTY2IDM1LjdoMS40Yy4zIDAgLjYtLjMuNi0uNnYtNy40YzAtMy40LTEuOC01LjQtNC44LTUuNC0uOSAwLTEuOS4yLTIuNS40VjE5YzAtLjgtLjctMS41LTEuNS0xLjVoLTEuNGMtLjMgMC0uNi4zLS42LjZ2MTdjMCAuMy4zLjYuNi42aDIuM2MuMyAwIC42LS4zLjYtLjZ2LTkuNGMuNS0uMiAxLjItLjMgMS43LS4zIDEuNSAwIDIuMS43IDIuMSAyLjR2Ni41Yy4xLjcuNyAxLjQgMS41IDEuNHptMTUuMS04LjRWMzFjMCAzLjEtMi4xIDUtNS42IDUtMy40IDAtNS42LTEuOS01LjYtNXYtMy43YzAtMy4xIDIuMS01IDUuNi01IDMuNSAwIDUuNiAxLjkgNS42IDV6bS0zLjUgMGMwLTEuMi0uNy0yLTItMnMtMiAuNy0yIDJWMzFjMCAxLjIuNyAxLjkgMiAxLjlzMi0uNyAyLTEuOXYtMy43em0tMjIuMy0xLjdjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40ek01MS43IDIzYzAtMS42LTEuMS0yLjQtMi42LTIuNC0uOSAwLTEuNS4zLTEuNS4zdjYuNmMuNi4zLjkuNCAxLjYuNCAxLjUgMCAyLjYtLjkgMi42LTIuNFYyM3ptNjguMiAyLjZjMCAzLjItMi40IDUuNC01LjYgNS40LS44IDAtMS41LS4xLTIuMi0uNHY0LjVjMCAuMy0uMy42LS42LjZoLTIuM2MtLjMgMC0uNi0uMy0uNi0uNlYxOS4yYzAtLjQuMy0uNy42LS44IDEuNS0uNSAzLS44IDQuNi0uOCAzLjYgMCA2LjEgMi4yIDYuMSA1LjZ2Mi40em0tMy42LTIuNmMwLTEuNi0xLjEtMi40LTIuNi0yLjQtLjkgMC0xLjUuMy0xLjUuM3Y2LjZjLjYuMy45LjQgMS42LjQgMS41IDAgMi42LS45IDIuNi0yLjRWMjN6Ii8+PHBhdGggZD0iTTI2IDE5LjNjMC0uNy0uNi0xLjMtMS4zLTEuM2gtMi40bC01LjUtNi4zYy0uNS0uNi0xLjMtLjgtMi4xLS42bC0xLjkuNmMtLjMuMS0uNC41LS4yLjdsNiA1LjdIOS41Yy0uMyAwLS41LjItLjUuNXYxYzAgLjcuNiAxLjMgMS4zIDEuM2gxLjR2NC44YzAgMy42IDEuOSA1LjcgNS4xIDUuNyAxIDAgMS44LS4xIDIuOC0uNXYzLjJjMCAuOS43IDEuNiAxLjYgMS42aDEuNGMuMyAwIC42LS4zLjYtLjZWMjAuOGgyLjNjLjMgMCAuNS0uMi41LS41di0xem0tNi40IDguNmMtLjYuMy0xLjQuNC0yIC40LTEuNiAwLTIuNC0uOC0yLjQtMi42di00LjhoNC40djd6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"
+                            alt="PhonePe Logo" id="ppl" loading="lazy"></div>
+                </div>
+                <div class="footer-container__item"><a href="/business-solutions/">
+                        <h3 class="footer-container__item__title">Business Solutions</h3>
+                    </a>
+                    <ul>
+                        <li><a href="/business-solutions/payment-gateway/">Payment Gateway</a></li>
+                        <li><a href="/ecommerce-payment-gateway/">E-commerce PG</a></li>
+                        <li><a href="/business-solutions/guardian/">Guardian by PhonePe</a></li>
+                        <li><a href="/business-solutions/express-checkout/">Express Checkout</a></li>
+                        <li><a href="/business-solutions/switch/">PhonePe Switch</a></li>
+                        <li><a href="/business-solutions/offline-merchant/">Offline Merchant</a></li>
+                        <li><a href="/business-solutions/merchant-advertisement/">Advertise on PhonePe</a></li>
+                        <li><a href="/business-solutions/offline-merchant/smartspeaker/">SmartSpeaker</a></li>
+                        <li><a href="/lending/">PhonePe Lending</a></li>
+                        <li><a href="/pos-machine/">POS Machine</a></li>
+                        <li><a href="/business-solutions/payment-link/">Payment Links</a></li>
+                    </ul>
+                </div>
+                <div class="footer-container__item"><a href="/insurance/">
+                        <h3 class="footer-container__item__title">Insurance</h3>
+                    </a>
+                    <ul>
+                        <li><a href="/insurance/motor-insurance/">Motor Insurance</a></li>
+                        <li><a href="/insurance/motor-insurance/bike-insurance/">Bike Insurance</a></li>
+                        <li><a href="/insurance/motor-insurance/car-insurance/">Car Insurance</a></li>
+                        <li><a href="/insurance/health-insurance/">Health Insurance</a></li>
+                        <li><a href="/insurance/health-insurance/health-and-covid-19-mediclaim/">Arogya Sanjeevani
+                                Policy</a></li>
+                        <li><a href="/insurance/life-insurance/">Life Insurance</a></li>
+                        <li><a href="/insurance/life-insurance/term-life-insurance/">Term Life Insurance</a></li>
+                        <li><a href="/insurance/life-insurance/accident/">Personal Accident Insurance</a></li>
+                        <li><a href="/insurance/travel-insurance/">Travel Insurance</a></li>
+                        <li><a href="/insurance/travel-insurance/international-travel-insurance/">International Travel
+                                Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-container__item"><a href="/investments/">
+                        <h3 class="footer-container__item__title">Investments</h3>
+                    </a>
+                    <ul>
+                        <li><a href="/investments/gold/">24K Gold</a></li>
+                        <li><a href="/investments/mutual-funds/liquid-funds/">Liquid Funds</a></li>
+                        <li><a href="/investments/mutual-funds/tax-saving-funds/">Tax Saving Funds</a></li>
+                        <li><a href="/investments/equity-funds/">Equity Funds</a></li>
+                        <li><a href="/investments/mutual-funds/debt-fund/">Debt Funds</a></li>
+                        <li><a href="/investments/hybrid-fund/">Hybrid Funds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-container__item">
+                    <h3 class="footer-container__item__title">General</h3>
+                    <ul>
+                        <li><a href="/about-us/">About Us</a></li>
+                        <li><a href="/careers/">Careers</a></li>
+                        <li><a href="/contact-us/">Contact Us</a></li>
+                        <li><a href="/press/">Press</a></li>
+                        <li><a href="https://www.phonepeethics.com/content/phonepe-ethics/en_us.html" target="_blank"
+                                rel="noreferrer">Ethics</a></li>
+                        <li><a href="/report-vulnerability/">Report Vulnerability</a></li>
+                        <li><a href="/merchant-partners/">Merchant Partners</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="https://tech.phonepe.com/" target="_blank" rel="noreferrer">Tech Blog</a></li>
+                        <li><a href="https://www.phonepe.com/pulse/" target="_blank" rel="noreferrer">PhonePe Pulse</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-container__item">
+                    <h3 class="footer-container__item__title">Legal</h3>
+                    <ul>
+                        <li><a href="/terms-conditions/">Terms &amp; Conditions</a></li>
+                        <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="/grievance-policy/">Grievance Policy</a></li>
+                        <li><a href="/how-to-pay/pay-by-phonepe/web/">How to Pay</a></li>
+                        <li><a href="/ewaste-policy/">E-Waste Policy</a></li>
+                        <li><a href="/trust-and-safety/">Trust &amp; Safety</a></li>
+                        <li><a href="https://www.phonepeethics.com/content/dam/phonepe-ethics/documents/PhonePe-Global-Anti-Corruption-Policy.pdf"
+                                target="_blank" rel="noreferrer">Global Anti-Corruption Policy</a></li>
+                    </ul>
+                    <div class="see-all-apps">
+                        <h3 class="see-all-apps__title">See All Apps</h3>
+                        <div class="see-all-apps__download-container">
+                            <div><a href="/app-download/"><img
+                                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzAgNDUiPjxwYXRoIGQ9Ik0yMC41IDI4Yy0uMSAwLS4yLS4xLS4yLS4ydi0xMWMwLS4yLjEtLjIuMi0uMmg0YzIuNyAwIDQuMyAxLjQgNC4zIDQuMnYzYzAgMi44LTEuNyA0LjItNC4zIDQuMmgtNHptMS43LTEuOGgyLjNjMS41IDAgMi4zLS44IDIuMy0yLjR2LTMuMWMwLTEuNi0uOC0yLjQtMi4zLTIuNGgtMi4zdjcuOXpNMzUuMiAyOC4yYy0yLjggMC00LjUtMS42LTQuNS00LjV2LTIuOWMwLTIuOCAxLjctNC40IDQuNS00LjRzNC41IDEuNiA0LjUgNC40djIuOWMwIDIuOC0xLjcgNC41LTQuNSA0LjV6bTAtMS44YzEuNyAwIDIuNS0uOSAyLjUtMi42di0yLjljMC0xLjctLjktMi42LTIuNS0yLjZzLTIuNS45LTIuNSAyLjZ2Mi45YzAgMS43LjggMi42IDIuNSAyLjZ6TTQ0LjEgMjhjLS4xIDAtLjItLjEtLjMtLjJsLTMtMTFjMC0uMiAwLS4zLjItLjNoMS42Yy4xIDAgLjIgMCAuMy4ybDEuMyA1LjNjLjMgMS4xLjUgMi40LjggMy42LjMtMS4yLjYtMi43IDEtMy45bDEuNC00LjljMC0uMS4xLS4yLjMtLjJoMS42Yy4xIDAgLjIuMS4zLjJsMS40IDQuOWMuMyAxLjIuNyAyLjcgMSAzLjkuMi0xLjIuNS0yLjUuOC0zLjZsMS4zLTUuM2MwLS4yLjEtLjIuMi0uMmgxLjZjLjIgMCAuMy4xLjIuM2wtMyAxMWMwIC4xLS4xLjItLjMuMkg1MWMtLjEgMC0uMi0uMS0uMy0uMmwtMS41LTVjLS40LTEuMi0uNy0yLjYtLjgtMy42aC0uMWMtLjIgMS0uNSAyLjMtLjggMy42bC0xLjUgNWMwIC4xLS4xLjItLjMuMmgtMS42ek01Ny42IDI4Yy0uMSAwLS4yLS4xLS4yLS4ydi0xMWMwLS4yLjEtLjIuMi0uMmgxLjZjLjEgMCAuMi4xLjMuMmwzLjEgNS40Yy41IDEgMS4yIDIgMS42IDIuOS0uMS0xLjQtLjEtMy0uMS00LjN2LTMuOWMwLS4yLjEtLjIuMi0uMmgxLjRjLjIgMCAuMi4xLjIuMnYxMWMwIC4yLS4xLjItLjIuMmgtMS42Yy0uMSAwLS4yIDAtLjMtLjJsLTMtNWMtLjYtMS0xLjMtMi4yLTEuNy0zLjIuMSAxLjQuMSAzIC4xIDQuNHYzLjdjMCAuMi0uMS4yLS4yLjJoLTEuNHpNNjguOSAyOGMtLjEgMC0uMi0uMS0uMi0uMnYtMTFjMC0uMi4xLS4yLjItLjJoMS41Yy4xIDAgLjIuMS4yLjJ2OS40aDQuN2MuMiAwIC4yLjEuMi4ydjEuM2MwIC4yLS4xLjItLjIuMmgtNi40ek04MSAyOC4yYy0yLjggMC00LjUtMS42LTQuNS00LjV2LTIuOWMwLTIuOCAxLjctNC40IDQuNS00LjRzNC41IDEuNiA0LjUgNC40djIuOWMwIDIuOC0xLjYgNC41LTQuNSA0LjV6bTAtMS44YzEuNyAwIDIuNS0uOSAyLjUtMi42di0yLjljMC0xLjctLjktMi42LTIuNS0yLjZzLTIuNS45LTIuNSAyLjZ2Mi45YzAgMS43LjkgMi42IDIuNSAyLjZ6TTg2LjYgMjhjLS4yIDAtLjItLjEtLjItLjNsMy44LTExYzAtLjEuMS0uMi4zLS4yaDEuOGMuMSAwIC4yLjEuMy4ybDMuOCAxMWMwIC4yIDAgLjMtLjIuM2gtMS42Yy0uMSAwLS4yLS4xLS4zLS4ybC0uOC0yLjRoLTQuNGwtLjggMi40YzAgLjEtLjEuMi0uMy4yaC0xLjR6bTMuMi00LjRoMy4zbC0xLjYtNWgtLjFsLTEuNiA1ek05OC4xIDI4Yy0uMSAwLS4yLS4xLS4yLS4ydi0xMWMwLS4yLjEtLjIuMi0uMmg0YzIuNyAwIDQuMyAxLjQgNC4zIDQuMnYzYzAgMi44LTEuNyA0LjItNC4zIDQuMmgtNHptMS43LTEuOGgyLjNjMS41IDAgMi4zLS44IDIuMy0yLjR2LTMuMWMwLTEuNi0uOC0yLjQtMi4zLTIuNGgtMi4zdjcuOXpNMTEyLjMgMjhjLS4xIDAtLjItLjEtLjItLjJ2LTExYzAtLjIuMS0uMi4yLS4yaDEuNmMuMSAwIC4yLjEuMy4ybDMuMSA1LjRjLjUgMSAxLjIgMiAxLjYgMi45LS4xLTEuNC0uMS0zLS4xLTQuM3YtMy45YzAtLjIuMS0uMi4yLS4yaDEuNGMuMiAwIC4yLjEuMi4ydjExYzAgLjItLjEuMi0uMi4yaC0xLjZjLS4xIDAtLjIgMC0uMy0uMmwtMy01Yy0uNi0xLTEuMy0yLjItMS43LTMuMi4xIDEuNC4xIDMgLjEgNC40djMuN2MwIC4yLS4xLjItLjIuMmgtMS40ek0xMjcuNSAyOC4yYy0yLjggMC00LjUtMS42LTQuNS00LjV2LTIuOWMwLTIuOCAxLjctNC40IDQuNS00LjRzNC41IDEuNiA0LjUgNC40djIuOWMwIDIuOC0xLjcgNC41LTQuNSA0LjV6bTAtMS44YzEuNyAwIDIuNS0uOSAyLjUtMi42di0yLjljMC0xLjctLjktMi42LTIuNS0yLjZzLTIuNS45LTIuNSAyLjZ2Mi45YzAgMS43LjggMi42IDIuNSAyLjZ6TTEzNi40IDI4Yy0uMSAwLS4yLS4xLS4zLS4ybC0zLTExYzAtLjIgMC0uMy4yLS4zaDEuNmMuMSAwIC4yIDAgLjMuMmwxLjMgNS4zYy4zIDEuMS41IDIuNC44IDMuNi4zLTEuMi42LTIuNyAxLTMuOWwxLjQtNC45YzAtLjEuMS0uMi4zLS4yaDEuNmMuMSAwIC4yLjEuMy4ybDEuNCA0LjljLjMgMS4yLjcgMi43IDEgMy45LjItMS4yLjUtMi41LjgtMy42bDEuMy01LjNjMC0uMi4xLS4yLjItLjJoMS42Yy4yIDAgLjMuMS4yLjNsLTMgMTFjMCAuMS0uMS4yLS4zLjJoLTEuN2MtLjEgMC0uMi0uMS0uMy0uMmwtMS41LTVjLS40LTEuMi0uNy0yLjYtLjgtMy42aC0uMWMtLjIgMS0uNSAyLjMtLjggMy42bC0xLjUgNWMwIC4xLS4xLjItLjMuMmgtMS43eiIvPjxwYXRoIGQ9Ik0xNCAxaDE0MmM3LjIgMCAxMyA1LjggMTMgMTN2MTdjMCA3LjItNS44IDEzLTEzIDEzSDE0QzYuOCA0NCAxIDM4LjIgMSAzMVYxNEMxIDYuOCA2LjggMSAxNCAxeiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4="
+                                        alt="Download PhonePe App Button Icon"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container__item">
+                    <h3 class="footer-container__item__title">PhonePe Group</h3>
+                    <ul>
+                        <li><a href="https://www.indusappstore.com/" target="_blank" rel="noreferrer">Indus
+                                Appstore</a><img
+                                src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM0MjQyNDJ9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTkuNSAxMi44M3Y2LjY3aC0xNXYtMTVoNi42N2EuODMuODMgMCAwMC44My0uODNWM0g0LjVBMS41IDEuNSAwIDAwMyA0LjV2MTVBMS41IDEuNSAwIDAwNC41IDIxaDE1YTEuNSAxLjUgMCAwMDEuNS0xLjVWMTJoLS42N2EuODMuODMgMCAwMC0uODMuODN6Ii8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjAuNjMgM0gxNXYuNjdhLjgzLjgzIDAgMDAuODMuODNoMi42N2wtNyA3IC40OC40N2EuODIuODIgMCAwMDEuMTcgMGw2LjM1LTYuMzV2Mi41NWEuODMuODMgMCAwMC44My44M0gyMVYzLjM3YS4zOC4zOCAwIDAwLS4zNy0uMzd6Ii8+PC9zdmc+"
+                                width="12" alt="external link icon" style="margin-left: 5px;"></li>
+                        <li><a href="https://share.market/" target="_blank" rel="noreferrer">Share.Market</a><img
+                                src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM0MjQyNDJ9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTkuNSAxMi44M3Y2LjY3aC0xNXYtMTVoNi42N2EuODMuODMgMCAwMC44My0uODNWM0g0LjVBMS41IDEuNSAwIDAwMyA0LjV2MTVBMS41IDEuNSAwIDAwNC41IDIxaDE1YTEuNSAxLjUgMCAwMDEuNS0xLjVWMTJoLS42N2EuODMuODMgMCAwMC0uODMuODN6Ii8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjAuNjMgM0gxNXYuNjdhLjgzLjgzIDAgMDAuODMuODNoMi42N2wtNyA3IC40OC40N2EuODIuODIgMCAwMDEuMTcgMGw2LjM1LTYuMzV2Mi41NWEuODMuODMgMCAwMC44My44M0gyMVYzLjM3YS4zOC4zOCAwIDAwLS4zNy0uMzd6Ii8+PC9zdmc+"
+                                width="12" alt="external link icon" style="margin-left: 5px;"></li>
+                        <li><a href="https://www.pincode.com/" target="_blank" rel="noreferrer">Pincode</a><img
+                                src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM0MjQyNDJ9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTkuNSAxMi44M3Y2LjY3aC0xNXYtMTVoNi42N2EuODMuODMgMCAwMC44My0uODNWM0g0LjVBMS41IDEuNSAwIDAwMyA0LjV2MTVBMS41IDEuNSAwIDAwNC41IDIxaDE1YTEuNSAxLjUgMCAwMDEuNS0xLjVWMTJoLS42N2EuODMuODMgMCAwMC0uODMuODN6Ii8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjAuNjMgM0gxNXYuNjdhLjgzLjgzIDAgMDAuODMuODNoMi42N2wtNyA3IC40OC40N2EuODIuODIgMCAwMDEuMTcgMGw2LjM1LTYuMzV2Mi41NWEuODMuODMgMCAwMC44My44M0gyMVYzLjM3YS4zOC4zOCAwIDAwLS4zNy0uMzd6Ii8+PC9zdmc+"
+                                width="12" alt="external link icon" style="margin-left: 5px;"></li>
+                    </ul>
+                    <div class="footer-container__item">
+                        <div class="sisa-certification">
+                            <h3 class="sisa-certification__title">Certification</h3>
+                            <div class="sisa-certification__img"><a
+                                    href="https://seal.controlcase.com/index.php?page=showCert&amp;cId=4184241003"
+                                    target="_blank" rel="noopener noreferrer nofollow"><img
+                                        src="https://www.phonepe.com/webstatic/8568/static/sisa-449d370383459eec6ef4f303989d5dd9.png"
+                                        height="71" width="113" alt="Sisa Logo"><img
+                                        src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM0MjQyNDJ9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTkuNSAxMi44M3Y2LjY3aC0xNXYtMTVoNi42N2EuODMuODMgMCAwMC44My0uODNWM0g0LjVBMS41IDEuNSAwIDAwMyA0LjV2MTVBMS41IDEuNSAwIDAwNC41IDIxaDE1YTEuNSAxLjUgMCAwMDEuNS0xLjVWMTJoLS42N2EuODMuODMgMCAwMC0uODMuODN6Ii8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjAuNjMgM0gxNXYuNjdhLjgzLjgzIDAgMDAuODMuODNoMi42N2wtNyA3IC40OC40N2EuODIuODIgMCAwMDEuMTcgMGw2LjM1LTYuMzV2Mi41NWEuODMuODMgMCAwMC44My44M0gyMVYzLjM3YS4zOC4zOCAwIDAwLS4zNy0uMzd6Ii8+PC9zdmc+"
+                                        class="sisa-certification__img__external_icon" width="12"
+                                        alt="external link icon" style="position: relative; margin-left: 8px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-footnote">
+                <div class="footer-footnote__social-media-icon">
+                    <div class="footer-footnote__social-media-icon__item"><a
+                            href="https://www.linkedin.com/company/phonepe-internet" target="_blank"
+                            rel="noreferrer"><img
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNLjM3MS4wNmgzMy4zOTV2MzMuMDU3SC4zN3oiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48bWFzayBpZD0iYiIgZmlsbD0iI2ZmZiI+PHVzZSB4bGluazpocmVmPSIjYSIvPjwvbWFzaz48cGF0aCBkPSJNOC43MTcgMTAuOTI3YzEuNDIzIDAgMi42MDgtMS4xNzUgMi41OTEtMi41NjgtLjAxNi0xLjM5Ni0xLjIyOC0yLjU2NS0yLjYzNS0yLjU0LTEuMzg3LjAyMy0yLjUzNyAxLjE3NS0yLjU0MyAyLjU0OC0uMDA2IDEuNDIgMS4xNDcgMi41NiAyLjU4NyAyLjU2ek02LjUyMyAyNi45N2g0LjM0NFYxMi45MDJINi41MjNWMjYuOTd6bTExLjY0LjAwMnYtLjgyM2MwLTIuMDgtLjAxLTQuMTYuMDA5LTYuMjQxYTcuODA1IDcuODA1IDAgMDEuMTcyLTEuNmMuMTk2LS44ODguNjczLTEuNTY3IDEuNjMtMS44MSAxLjgwNi0uNDU2IDMuMDQ4LjQyMyAzLjA5NCAyLjI5NS4wNiAyLjQ0Ni4wMzYgNC44OTUuMDQ4IDcuMzQydi44MDhoNC40MjVjMC0zLjA2OC4wMDgtNi4wNzQtLjAwOC05LjA4LS4wMDMtLjQ4Ni0uMDg2LS45NzYtLjE3OC0xLjQ1NS0uNDctMi40NTQtMS45NzItMy43MjktNC40ODgtMy44ODYtMS45Ni0uMTIzLTMuNTkuNDU2LTQuODkxIDIuMjY4di0xLjg4N2gtNC4yMnYxNC4wN2g0LjQwOHpNMTUuNzg3LjA2aDIuNTI2Yy4xNC4wMzguMjc2LjA5OC40MTcuMTEyIDYuNjk2LjY1IDEyLjM3NiA1LjIzOCAxNC4yODggMTEuNjA1LjM0OCAxLjE1OC41MDQgMi4zNzMuNzQ5IDMuNTYxdjIuNDk4Yy0uMDU2LjM1OC0uMTE1LjcxNS0uMTY3IDEuMDczLTEuMzAzIDkuMDIxLTkuODIyIDE1LjM0NS0xOC45MTEgMTQuMDM3QzUuODM5IDMxLjY3My0uMzY4IDIzLjg3Mi40NDIgMTUuMDQzIDEuMDU4IDguMzM3IDUuNzA4IDIuNjk1IDEyLjI1Mi43ODZjMS4xNS0uMzM1IDIuMzU1LS40ODggMy41MzQtLjcyNnoiIGZpbGw9IiMwMDAiIG1hc2s9InVybCgjYikiLz48L2c+PC9zdmc+"
+                                alt="LinkedIn Logo"></a></div>
+                    <div class="footer-footnote__social-media-icon__item"><a href="https://twitter.com/PhonePe"
+                            target="_blank" rel="noreferrer"><img
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSIzNCIgZmlsbD0ibm9uZSI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTcuMDEyIDBDMjYuMzkyLjAwNSAzNC4wMDIgNy42MjIgMzQgMTcuMDAzYzAgOS4zOS03LjY0IDE3LjAxNi0xNy4wMjggMTYuOTk3QzcuNTkgMzMuOTgxLS4wMDcgMjYuMzYzIDAgMTYuOTguMDA3IDcuNjA0IDcuNjMtLjAwNSAxNy4wMTIgMFptOS4xMjMgOS44MTFjLS43LjI1Mi0xLjM5NC40OTgtMi4wODUuNzUyLS4yMzMuMDg1LS4zOS4wMjgtLjU4NS0uMTQxLTEuMTc1LTEuMDMtMi41My0xLjMtMy45ODUtLjc0OC0xLjQ0NC41NDctMi4yOCAxLjYzNi0yLjQ4IDMuMTcyLS4wNTcuNDQtLjAxLjg5Mi0uMDEgMS4zNTItMy4yMjEtLjIzMi01Ljg2Ni0xLjU5NC03Ljk5Ny00LjA4Ni0uOTQgMi4wNTYtLjU0NCAzLjc2MSAxLjEzNiA1LjE5NmwtLjA2LjA3Yy0uNTMzLS4xNS0xLjA2NC0uMzA0LTEuNjEtLjQ2LjAxMS44OS4yODggMS42ODcuODQgMi4zOS41NTMuNzA0IDEuMjgxIDEuMTQ2IDIuMTQ0IDEuMzg0LS4wMDUuMDMyLS4wMS4wNjQtLjAxNy4wOTZIOS44MTNjLjY1IDEuNjY1IDEuODQgMi41NDQgMy41OTEgMi43MjUtMS4yNjEgMS4xMDgtMi45IDEuNTgtNS42MTcgMS42MzIuMTA5LjA3NC4xODIuMTM1LjI2NC4xODIgMy4yMjIgMS44MjIgNi42MDcgMi4xMTcgOS45ODQuNjYzIDQuMzYtMS44NzYgNi40NTYtNS40MTQgNi43MTgtMTAuMDg1LjAyNi0uNDU2LjExMi0uNzY2LjQ5MS0xLjA0Ny41NTUtLjQxIDEuMDAxLS45NDEgMS4zOTItMS41MzNsLTEuOTk3LjUzOS0uMDM2LS4wOTRjLjcxOC0uNSAxLjI1MS0xLjE0NSAxLjUzLTEuOTU3bC4wMDItLjAwMloiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjYuMTM0IDkuODExYy0uMjgxLjgxMy0uODEzIDEuNDU3LTEuNTMgMS45NThsLjAzNS4wOTMgMS45OTctLjUzOGMtLjM5LjU5LS44MzcgMS4xMjItMS4zOTIgMS41MzMtLjM4LjI4LS40NjUuNTktLjQ5IDEuMDQ3LS4yNjMgNC42Ny0yLjM2IDguMjA5LTYuNzIgMTAuMDg1LTMuMzc0IDEuNDU0LTYuNzYgMS4xNTktOS45ODMtLjY2My0uMDgyLS4wNDctLjE1Ny0uMTA3LS4yNjQtLjE4MyAyLjcxNi0uMDUyIDQuMzU2LS41MjQgNS42MTgtMS42MzItMS43NTItLjE4LTIuOTQyLTEuMDYtMy41OTItMi43MjVoMS42MTNjLjAwNS0uMDMyLjAxLS4wNjQuMDE3LS4wOTYtLjg2My0uMjM4LTEuNTkxLS42OC0yLjE0NS0xLjM4NGEzLjg0NiAzLjg0NiAwIDAgMS0uODM5LTIuMzg5bDEuNjEuNDYuMDYtLjA3Yy0xLjY4LTEuNDM1LTIuMDc1LTMuMTQtMS4xMzYtNS4xOTYgMi4xMyAyLjQ5MyA0Ljc3NiAzLjg1NSA3Ljk5OCA0LjA4NSAwLS40Ni0uMDUtLjkxMi4wMDktMS4zNS4yMDItMS41MzYgMS4wMzYtMi42MjUgMi40OC0zLjE3MyAxLjQ1Ny0uNTUyIDIuODEtLjI4IDMuOTg1Ljc0OC4xOTQuMTcuMzUyLjIyNy41ODUuMTQuNjkxLS4yNTQgMS4zODYtLjUgMi4wODUtLjc1aC0uMDAxWiIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMzR2MzRIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4="
+                                alt="Twitter Logo"></a></div>
+                    <div class="footer-footnote__social-media-icon__item"><a
+                            href="https://www.facebook.com/OfficialPhonePe/" target="_blank" rel="noreferrer"><img
+                                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzQiIGhlaWdodD0iMzQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIxLjcgMTcuMDQybC40LTMuNTkzaC0zLjQ1NWMwLS44MjgtLjAzMy0xLjYwNC4wMTMtMi4zNzYuMDI4LS40NzEuMzc3LS43MS44OTgtLjcyLjQ4LS4wMTEuOTYtLjAwNCAxLjQ0LS4wMDRoMS4wMjFWNi44Yy0xLjU2NS4wNTEtMy4xMTMuMDI2LTQuNjQyLjE3Ny0xLjE1OS4xMTUtMi4wNy43NTItMi42NjkgMS43MS0uNDgxLjc3LS42NTcgMS42MTItLjY2NiAyLjQ5LS4wMDcuNzQtLjAwMSAxLjQ4LS4wMDEgMi4yNjhoLTIuMTR2My42MDdoMi4xNDRWMjcuMmg0LjU3OFYxNy4wNDJIMjEuN3pNMTYuOTgyIDBDMjYuMzQ3LS4wMzIgMzMuOTQyIDcuNTQgMzQgMTYuOTY1Yy4wNTYgOS4zNjgtNy41NjUgMTcuMDEzLTE2Ljk4NCAxNy4wMzVDNy42MjMgMzQuMDIyIDAgMjYuNDA2IDAgMTcgMCA3LjYwOCA3LjU3LjAzMiAxNi45ODIgMHoiIGZpbGw9IiMwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg=="
+                                alt="Fb Logo"></a></div>
+                    <div class="footer-footnote__social-media-icon__item"><a href="https://www.youtube.com/@PhonePe_/"
+                            target="_blank" rel="noreferrer"><img
+                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNCIgaGVpZ2h0PSIzNCIgZmlsbD0ibm9uZSI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMCAxNi45NjlDLjAxMiA3LjU5MyA3LjY0LS4wMTEgMTcuMDIyIDAgMjYuNDE1LjAxIDM0LjAyNCA3LjY1IDM0IDE3LjA0NiAzMy45NzYgMjYuNDIgMjYuMzM1IDM0LjAyNiAxNi45NjIgMzQgNy41OCAzMy45NzUtLjAxMiAyNi4zNTIgMCAxNi45NjlabTE2LjU1NC03LjQ4NC0uMDA0LjA4Yy0uMTIzIDAtLjI0NC0uMDA1LS4zNjYgMC0yLjMyLjExLTQuNjQxLjE4Ni02Ljk1Ni4zNDUtMS4zMi4wOS0yLjIzMy45MjYtMi40NTEgMi4yMjgtLjE5NiAxLjE2Mi0uMjk4IDIuMzQ2LS4zNjIgMy41MjVhMjcuNzIgMjcuNzIgMCAwIDAgLjI5NCA1Ljk1NGMuMjMxIDEuNDE3Ljk5NSAyLjIyNyAyLjQxMiAyLjQzNyAxLjA0OC4xNTUgMi4xMTIuMjIyIDMuMTcuMjY5IDQuMDA1LjE3NyA4LjAwOC4xNzIgMTIuMDA1LS4xNjMgMS45MS0uMTYgMi43NzYtLjk1NiAzLjA0My0yLjgzMy4yNy0xLjg5OS4zNTQtMy44MTMuMjQyLTUuNzI3LS4wNy0xLjE4OS0uMTc2LTIuMzgzLS4zOC0zLjU1NS0uMTk3LTEuMTI3LS45NTgtMS44MTQtMi4wNzgtMi4wNjhhNS44MjYgNS44MjYgMCAwIDAtMS4wMTYtLjE0N2MtMi41MTgtLjEyMi01LjAzNy0uMjM0LTcuNTU2LS4zNDhsLjAwMy4wMDNaIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE2LjU1NCA5LjQ4NWM0LjE0OS0uMDcgNy4yOTQuMTUzIDguNTcyLjQ5NC4zNzkuMTAxIDEuMDgyLjI5OCAxLjU4LjkyLjI0OC4zMTIuNDE5LjY5NC40OTggMS4xNDcuMjA1IDEuMTcyLjMxMyAyLjM2Ni4zOCAzLjU1Ni4xMTEgMS45MTMuMDI3IDMuODI3LS4yNDEgNS43MjctLjI2NiAxLjg3Ni0xLjEzMyAyLjY3My0zLjA0MyAyLjgzMy0zLjk5Ny4zMzUtOCAuMzM5LTEyLjAwNC4xNjItMS4wNi0uMDQ3LTIuMTI0LS4xMTMtMy4xNy0uMjY5LTEuNDItLjIxMS0yLjE4My0xLjAyLTIuNDEzLTIuNDM2LS4zMjItMS45NzMtLjQwMi0zLjk2My0uMjk0LTUuOTU1LjA2NC0xLjE3OC4xNjYtMi4zNjIuMzYyLTMuNTI1LjExLS42NTguMzk3LTEuMTk3LjgyNi0xLjU4LjU2NC0uNTA1IDEuMjQyLS42IDEuNjI1LS42NDcgMi41MzgtLjMxMiA3LjA3OS0uNDIyIDcuMzI1LS40MjdoLS4wMDNabS0xLjY1MiA0LjM0djYuMzUyTDIwLjQxNiAxN2wtNS41MTQtMy4xNzV2LS4wMDJaIi8+PHBhdGggZmlsbD0iIzAwMCIgZD0ibTE0LjkwMiAxMy44MjUgNS41MTQgMy4xNzRjLTEuODU3IDEuMDY5LTMuNjY1IDIuMTEyLTUuNTE0IDMuMTc1di02LjM1WiIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImEiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMzR2MzRIMHoiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4="
+                                alt="YT Logo"></a></div>
+                </div>
+            </div>
+            <div class="ft-copyright">© 2024, All rights reserved</div>
+        </div>
+    </div>
+</body>
+
+</html>
